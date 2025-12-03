@@ -2,41 +2,57 @@ import json
 import tkinter as tk
 from tkinter import messagebox
 import pyperclip
-
-# ---------------------------- PASSWORD GENERATOR ------------------------------- #
 import random
+# ---------------------------- PASSWORD GENERATOR ------------------------------- #
+def call_password():
+    letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
+               'v',
+               'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q',
+               'R',
+               'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+    numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+    symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 
-from pandas.io.sas.sas_constants import dataset_length
+    nr_letters = random.randint(8, 10)
+    nr_symbols = random.randint(2, 4)
+    nr_numbers = random.randint(2, 4)
 
-letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
-           'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',
-           'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
+    list_passwords = []
+    for i in range(0, nr_letters):
+        list_passwords.append(random.choice(letters))
 
-nr_letters = random.randint(8,10)
-nr_symbols = random.randint(2,4)
-nr_numbers = random.randint(2,4)
+    for i in range(0, nr_symbols):
+        list_passwords.append(random.choice(symbols))
 
-list_passwords = []
-for i in range(0, nr_letters):
-    list_passwords.append(random.choice(letters))
+    for i in range(0, nr_numbers):
+        list_passwords.append(random.choice(numbers))
 
-for i in range(0, nr_symbols):
-    list_passwords.append(random.choice(symbols))
+    print(list_passwords)
+    random.shuffle(list_passwords)
 
-for i in range(0, nr_numbers):
-    list_passwords.append(random.choice(numbers))
-
-print(list_passwords)
-random.shuffle(list_passwords)
-
-final_password = "".join(list_passwords)
+    final_password = "".join(list_passwords)
+    return final_password
 
 def generate_password_button_clicked():
-    pyperclip.copy(final_password)
-    password_entry.insert(0, final_password)
+    password_entry.delete(0, tk.END)
+    finalpassword = call_password()
+    pyperclip.copy(finalpassword)
+    password_entry.insert(0, finalpassword)
 # ---------------------------- SAVE PASSWORD ------------------------------- #
+
+def search_button_clicked():
+    website = website_entry.get()
+    try:
+        with open("data.json", "r") as file:
+            data_from_json = json.load(file)
+        final_data_of_website = data_from_json[website]
+    except FileNotFoundError:
+        messagebox.showerror(title="Error", message="No data found.")
+    except KeyError:
+        messagebox.showerror(title="Error", message="Website not found")
+    else:
+        messagebox.showinfo(title="Success", message=f"Website found!\nEmail: {final_data_of_website['email']}\n"
+                                                     f"Password: {final_data_of_website['password']}")
 def add_button_clicked():
     website = website_entry.get()
     email = email_entry.get()
@@ -76,9 +92,12 @@ window.config(padx=20, pady=20)
 website_text = tk.Label(text="Website:",font=("Georgia",9,"normal"))
 website_text.grid(row=1,column=0)
 
-website_entry = tk.Entry(width=53)
-website_entry.grid(row=1,column=1,columnspan=2)
+website_entry = tk.Entry(width=33)
+website_entry.grid(row=1,column=1)
 website_entry.focus()
+
+search_button = tk.Button(text="Search", font=("Georgia",9,"normal"),width=14,command=search_button_clicked)
+search_button.grid(row=1,column=2)
 
 email_text = tk.Label(text="Email/Username:",font=("Georgia",9,"normal"))
 email_text.grid(row=2,column=0)
