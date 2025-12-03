@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7a569b-4152-4a22-9d86-78820bbb24d6" name="Changes" comment="Day 26,27 added">
-      <change afterPath="$PROJECT_DIR$/Day 28/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 29/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 29/main.py" afterDir="false" />
+    <list default="true" id="cd7a569b-4152-4a22-9d86-78820bbb24d6" name="Changes" comment="Password Manager GUI Added">
+      <change afterPath="$PROJECT_DIR$/Day 30/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 30/exercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 30/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 30/nato_phonetic_alphabet.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 29/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 29/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.NATO_alphabet.executor": "Run",
     "Python.Other_Tkinter_Widgets.executor": "Run",
+    "Python.exceptions.executor": "Run",
     "Python.final_project.executor": "Run",
     "Python.main.executor": "Run",
     "Python.playground.executor": "Run",
@@ -60,12 +63,13 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/madhu/PycharmProjects/PythonCourse/Day 28",
+    "last_opened_file_path": "C:/Users/madhu/PycharmProjects/PythonCourse/Day 30",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\madhu\PycharmProjects\PythonCourse\Day 30" />
       <recent name="C:\Users\madhu\PycharmProjects\PythonCourse\Day 28" />
       <recent name="C:\Users\madhu\PycharmProjects\PythonCourse\Day 27" />
       <recent name="C:\Users\madhu\PycharmProjects\PythonCourse\Day 26" />
@@ -107,12 +111,29 @@
       <option name="project" value="LOCAL" />
       <updated>1764440454760</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Password Manager GUI Added">
+      <option name="closed" value="true" />
+      <created>1764701146939</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764701146939</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Password Manager GUI Added">
+      <option name="closed" value="true" />
+      <created>1764701155886</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764701155886</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 25 US game project!" />
     <MESSAGE value="Day 26,27 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 26,27 added" />
+    <MESSAGE value="Password Manager GUI Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Password Manager GUI Added" />
   </component>
 </project>
