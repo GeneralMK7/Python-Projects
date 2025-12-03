@@ -49,12 +49,17 @@ def add_button_clicked():
         is_ok = messagebox.askokcancel(title=f"{website}",message=f"These are details entered:\n"
                                                                   f"Email: {email}\nPassword: {password}\nIs it Ok?")
         if is_ok:
-            with open(file="data.json", mode="r") as data_file:
-                data = json.load(data_file)
+            try:
+                with open(file="data.json", mode="r") as data_file:
+                    data = json.load(data_file)
+            except FileNotFoundError:
+                with open(file="data.json", mode="w") as data_file:
+                    json.dump(data_to_add, data_file, indent=4)
+            else:
                 data.update(data_to_add)
-
-            with open(file="data.json", mode="w") as data_file:
-                json.dump(data, data_file, indent=4)
+                with open(file="data.json", mode="w") as data_file:
+                    json.dump(data, data_file, indent=4)
+            finally:
                 website_entry.delete(0, tk.END)
                 password_entry.delete(0, tk.END)
                 website_entry.focus()
