@@ -1,9 +1,12 @@
+import json
 import tkinter as tk
 from tkinter import messagebox
 import pyperclip
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 import random
+
+from pandas.io.sas.sas_constants import dataset_length
 
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
            'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',
@@ -38,12 +41,20 @@ def add_button_clicked():
     website = website_entry.get()
     email = email_entry.get()
     password = password_entry.get()
+    data_to_add = {website :{
+        "email": email,
+        "password": password
+    }}
     if password != "" and website != "":
         is_ok = messagebox.askokcancel(title=f"{website}",message=f"These are details entered:\n"
                                                                   f"Email: {email}\nPassword: {password}\nIs it Ok?")
         if is_ok:
-            with open(file="data.txt", mode="a") as data_file:
-                data_file.write(f"{website_entry.get()} | {email_entry.get()} | {password_entry.get()}\n")
+            with open(file="data.json", mode="r") as data_file:
+                data = json.load(data_file)
+                data.update(data_to_add)
+
+            with open(file="data.json", mode="w") as data_file:
+                json.dump(data, data_file, indent=4)
                 website_entry.delete(0, tk.END)
                 password_entry.delete(0, tk.END)
                 website_entry.focus()
