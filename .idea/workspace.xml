@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7a569b-4152-4a22-9d86-78820bbb24d6" name="Changes" comment="Password Manager UI updated">
-      <change beforePath="$PROJECT_DIR$/Day 28/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 28/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="cd7a569b-4152-4a22-9d86-78820bbb24d6" name="Changes" comment="NATO Alphabet - gives you words for each letter of your name" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +176,31 @@
       <option name="project" value="LOCAL" />
       <updated>1764843771342</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Converted to string">
+      <option name="closed" value="true" />
+      <created>1764843905335</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1764843905335</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Pomodoro - The timer project">
+      <option name="closed" value="true" />
+      <created>1764843954763</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1764843954763</updated>
+    </task>
+    <task id="LOCAL-00014" summary="NATO Alphabet - gives you words for each letter of your name">
+      <option name="closed" value="true" />
+      <created>1764844097223</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1764844097223</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -191,6 +213,9 @@
     <MESSAGE value="Searching password using website name" />
     <MESSAGE value="Password Manager UI updated" />
     <MESSAGE value="work has 25 min" />
-    <option name="LAST_COMMIT_MESSAGE" value="work has 25 min" />
+    <MESSAGE value="Converted to string" />
+    <MESSAGE value="Pomodoro - The timer project" />
+    <MESSAGE value="NATO Alphabet - gives you words for each letter of your name" />
+    <option name="LAST_COMMIT_MESSAGE" value="NATO Alphabet - gives you words for each letter of your name" />
   </component>
 </project>
