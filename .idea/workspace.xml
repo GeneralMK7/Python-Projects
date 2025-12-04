@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7a569b-4152-4a22-9d86-78820bbb24d6" name="Changes" comment="NATO Alphabet - gives you words for each letter of your name" />
+    <list default="true" id="cd7a569b-4152-4a22-9d86-78820bbb24d6" name="Changes" comment="Added exception handling to NATO project">
+      <change beforePath="$PROJECT_DIR$/Day 25/2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/50_states.csv" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/50_states.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/blank_states_img.gif" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/blank_states_img.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/new_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/new_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/squirrel_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/squirrel_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/states_to_learn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/states_to_learn.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/us_game_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/us_game_project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 25/weather_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/weather_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,7 +211,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764844097223</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Mile to Km converter with tkinter basic GUI">
+      <option name="closed" value="true" />
+      <created>1764844409880</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1764844409880</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added exception handling to NATO project">
+      <option name="closed" value="true" />
+      <created>1764844498380</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1764844498380</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -216,6 +243,8 @@
     <MESSAGE value="Converted to string" />
     <MESSAGE value="Pomodoro - The timer project" />
     <MESSAGE value="NATO Alphabet - gives you words for each letter of your name" />
-    <option name="LAST_COMMIT_MESSAGE" value="NATO Alphabet - gives you words for each letter of your name" />
+    <MESSAGE value="Mile to Km converter with tkinter basic GUI" />
+    <MESSAGE value="Added exception handling to NATO project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added exception handling to NATO project" />
   </component>
 </project>
