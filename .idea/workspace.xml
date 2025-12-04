@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7a569b-4152-4a22-9d86-78820bbb24d6" name="Changes" comment="Added exception handling to NATO project">
-      <change beforePath="$PROJECT_DIR$/Day 25/2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 25/50_states.csv" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/50_states.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 25/blank_states_img.gif" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/blank_states_img.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 25/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 25/new_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/new_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 25/squirrel_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/squirrel_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 25/states_to_learn.csv" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/states_to_learn.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 25/us_game_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/us_game_project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 25/weather_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/weather_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+    <list default="true" id="cd7a569b-4152-4a22-9d86-78820bbb24d6" name="Changes" comment="US-states Guessing Project">
+      <change afterPath="$PROJECT_DIR$/Mile to Km Converter Project/basic-code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NATO Alphabet Project/learning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/US-States Game Project/learn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mile to Km Converter Project/final_project.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mile to Km Converter Project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mile to Km Converter Project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NATO Alphabet Project/NATO_alphabet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NATO Alphabet Project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/NATO Alphabet Project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/US-States Game Project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/US-States Game Project/us_game_project.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +226,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764844498380</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="US-states Guessing Project">
+      <option name="closed" value="true" />
+      <created>1764844666807</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1764844666807</updated>
+    </task>
+    <task id="LOCAL-00018" summary="US-states Guessing Project">
+      <option name="closed" value="true" />
+      <created>1764844673922</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1764844673922</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -245,6 +260,7 @@
     <MESSAGE value="NATO Alphabet - gives you words for each letter of your name" />
     <MESSAGE value="Mile to Km converter with tkinter basic GUI" />
     <MESSAGE value="Added exception handling to NATO project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added exception handling to NATO project" />
+    <MESSAGE value="US-states Guessing Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="US-states Guessing Project" />
   </component>
 </project>
