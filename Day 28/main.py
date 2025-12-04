@@ -16,7 +16,7 @@ reps = 0
 timer = None
 # ---------------------------- TIMER RESET ------------------------------- # 
 def reset_button_clicked():
-    window.after_cancel(timer)
+    window.after_cancel(str(timer))
     canvas.itemconfig(timer_text,text= "00:00")
     timerLabel.config(text="Timer")
     checkButton.config(text="")
