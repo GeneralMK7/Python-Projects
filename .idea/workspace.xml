@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7a569b-4152-4a22-9d86-78820bbb24d6" name="Changes" comment="US-states Guessing Project">
-      <change afterPath="$PROJECT_DIR$/Mile to Km Converter Project/basic-code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NATO Alphabet Project/learning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/US-States Game Project/learn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mile to Km Converter Project/final_project.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mile to Km Converter Project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mile to Km Converter Project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NATO Alphabet Project/NATO_alphabet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NATO Alphabet Project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/NATO Alphabet Project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/US-States Game Project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/US-States Game Project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/US-States Game Project/us_game_project.py" beforeDir="false" />
+    <list default="true" id="cd7a569b-4152-4a22-9d86-78820bbb24d6" name="Changes" comment="Names Changed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +234,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764844673922</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Names Changed">
+      <option name="closed" value="true" />
+      <created>1764845027596</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1764845027596</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Names Changed">
+      <option name="closed" value="true" />
+      <created>1764845033005</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1764845033005</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -261,6 +269,7 @@
     <MESSAGE value="Mile to Km converter with tkinter basic GUI" />
     <MESSAGE value="Added exception handling to NATO project" />
     <MESSAGE value="US-states Guessing Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="US-states Guessing Project" />
+    <MESSAGE value="Names Changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Names Changed" />
   </component>
 </project>
