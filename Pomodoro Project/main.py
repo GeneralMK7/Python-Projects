@@ -55,9 +55,7 @@ def count_down(count):
     else:
         start_button_clicked()
         final = math.floor(reps / 2)
-        mark = ""
-        for i in range(final):
-            mark += "✔"
+        mark = "✔" * final
         checkButton.config(text=mark, fg=GREEN)
 # ---------------------------- UI SETUP ------------------------------- #
 window = tkinter.Tk()

@@ -1,9 +1,7 @@
 import pandas
 
 data = pandas.read_csv("nato_phonetic_alphabet.csv")
-data_dict = {}
-for (index,row) in data.iterrows():
-    data_dict[row.letter] = row.code
+data_dict = data.set_index('letter')['code'].to_dict()
 
 name = input("Enter the name : ").upper()
 nato_alphabet = []

@@ -1,10 +1,10 @@
-# Keyword Method with iterrows()
+# Keyword Method with to_dict() - more efficient than iterrows()
 # {new_key:new_value for (index, row) in df.iterrows()}
 
 import pandas
 
 data = pandas.read_csv("nato_phonetic_alphabet.csv")
-phonetic_dict = {row.letter: row.code for (index, row) in data.iterrows()}
+phonetic_dict = data.set_index('letter')['code'].to_dict()
 print(phonetic_dict)
 
 while True:

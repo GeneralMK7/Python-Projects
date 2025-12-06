@@ -10,6 +10,11 @@ data_file = pandas.read_csv("50_states.csv")
 all_states = data_file.state.to_list()
 guessed_states = []
 
+# Create a single turtle for writing state names
+state_turtle = turtle.Turtle()
+state_turtle.hideturtle()
+state_turtle.penup()
+
 while len(guessed_states) < len(all_states):
     answer_state = screen.textinput(prompt="What's the another US state?:", title=f"{len(guessed_states)}/50 are correct").title()
     print(answer_state)
@@ -23,14 +28,11 @@ while len(guessed_states) < len(all_states):
     if answer_state in all_states:
         guessed_states.append(answer_state)
         state_name = answer_state
-        t = turtle.Turtle()
-        t.hideturtle()
-        t.penup()
         current_state = data_file[data_file["state"] == state_name]
         x_pos = current_state["x"].item()
         y_pos = current_state["y"].item()
-        t.goto(x_pos, y_pos)
-        t.write(state_name)
+        state_turtle.goto(x_pos, y_pos)
+        state_turtle.write(state_name)
 
 
 

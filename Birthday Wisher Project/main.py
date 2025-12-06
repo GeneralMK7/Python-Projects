@@ -24,15 +24,13 @@ today = dt.datetime.now()
 date = today.day
 month = today.month
 birthday_file = pandas.read_csv('birthdays.csv')
-date_of_all = birthday_file["day"].to_list()
-month_of_all = birthday_file["month"].to_list()
 
-for i in range(len(date_of_all)):
-    if date_of_all[i] == date and month_of_all[i] == month:
-        info = birthday_file[birthday_file["day"] == date_of_all[i]]
-        for index,row in info.iterrows():
-            send_email(row)
-        break
+# Filter for matching birthdays efficiently
+matching_birthdays = birthday_file[(birthday_file["day"] == date) & (birthday_file["month"] == month)]
+
+# Send emails for all matching birthdays
+for index, row in matching_birthdays.iterrows():
+    send_email(row)
 
 
 

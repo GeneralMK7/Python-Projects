@@ -4,7 +4,6 @@ import pandas, random
 
 #$----------------------------------DATA FILES-------------------------------------------$#
 data_file = pandas.read_csv("data/french_words.csv")
-data_length = len(data_file)
 french_word = ""
 english_word = ""
 index_word = 0
@@ -15,16 +14,15 @@ except FileNotFoundError:
 
 #$--------------------------------BUTTON RESPONSES----------------------------------------$#
 def next_word():
-    global french_word, english_word,index_word
-    index_word = random.randint(0, data_length - 1)
+    global french_word, english_word,index_word,data_file
+    index_word = random.randint(0, len(data_file) - 1)
     french_word = data_file.French[index_word]
     english_word = data_file.English[index_word]
 
 def give_answer(answer):
-    global index_word
-    f = pandas.read_csv("data/words_to_learn.csv")
-    f_modified = f[f["French"] != french_word]
-    f_modified.to_csv("data/words_to_learn.csv", index=False)
+    global index_word, data_file
+    data_file = data_file[data_file["French"] != french_word]
+    data_file.to_csv("data/words_to_learn.csv", index=False)
     card_front.itemconfig(language,text= "English",fill= "white")
     card_front.itemconfig(canvas_text,text= f"{answer}",fill="white")
     card_front.itemconfig(card_background, image=image_back)

@@ -17,15 +17,10 @@ def call_password():
     nr_symbols = random.randint(2, 4)
     nr_numbers = random.randint(2, 4)
 
-    list_passwords = []
-    for i in range(0, nr_letters):
-        list_passwords.append(random.choice(letters))
-
-    for i in range(0, nr_symbols):
-        list_passwords.append(random.choice(symbols))
-
-    for i in range(0, nr_numbers):
-        list_passwords.append(random.choice(numbers))
+    # Use list comprehensions for better performance
+    list_passwords = [random.choice(letters) for _ in range(nr_letters)]
+    list_passwords += [random.choice(symbols) for _ in range(nr_symbols)]
+    list_passwords += [random.choice(numbers) for _ in range(nr_numbers)]
 
     print(list_passwords)
     random.shuffle(list_passwords)
