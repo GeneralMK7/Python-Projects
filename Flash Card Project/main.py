@@ -3,14 +3,15 @@ import tkinter as tk
 import pandas, random
 
 #$----------------------------------DATA FILES-------------------------------------------$#
-data_file = pandas.read_csv("data/french_words.csv")
+try:
+    data_file = pandas.read_csv("data/words_to_learn.csv")
+except FileNotFoundError:
+    data_file = pandas.read_csv("data/french_words.csv")
+    data_file.to_csv("data/words_to_learn.csv", index=False)
+
 french_word = ""
 english_word = ""
 index_word = 0
-try:
-    open("data/words_to_learn.txt")
-except FileNotFoundError:
-    data_file.to_csv("data/words_to_learn.csv",index=False)
 
 #$--------------------------------BUTTON RESPONSES----------------------------------------$#
 def next_word():

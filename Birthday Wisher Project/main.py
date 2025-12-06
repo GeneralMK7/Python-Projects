@@ -28,9 +28,9 @@ birthday_file = pandas.read_csv('birthdays.csv')
 # Filter for matching birthdays efficiently
 matching_birthdays = birthday_file[(birthday_file["day"] == date) & (birthday_file["month"] == month)]
 
-# Send emails for all matching birthdays
-for index, row in matching_birthdays.iterrows():
-    send_email(row)
+# Send emails for all matching birthdays using apply for better performance
+if not matching_birthdays.empty:
+    matching_birthdays.apply(lambda row: send_email(row), axis=1)
 
 
 
