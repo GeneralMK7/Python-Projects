@@ -1,6 +1,6 @@
 import smtplib
-email = "lytblenders@gmail.com"
-password = "wtch dlbs cusm lfxt"
+email = "your-email-address"
+password = "your-app-password"
 
 with smtplib.SMTP('smtp.gmail.com', 587) as connection:
     connection.starttls()
