@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7a569b-4152-4a22-9d86-78820bbb24d6" name="Changes" comment="Quiz Application using API is added">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeatherAPI/main.py" afterDir="false" />
+    <list default="true" id="cd7a569b-4152-4a22-9d86-78820bbb24d6" name="Changes" comment="Weather Checking and SMS vis twilio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +114,7 @@
       <workItem from="1765166659257" duration="18000" />
       <workItem from="1765518206061" duration="16000" />
       <workItem from="1765519544970" duration="3714000" />
-      <workItem from="1765525773615" duration="4599000" />
+      <workItem from="1765525773615" duration="5378000" />
     </task>
     <task id="LOCAL-00001" summary="Day 25 US game project!">
       <option name="closed" value="true" />
@@ -326,7 +324,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765124273631</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Weather Checking and SMS vis twilio">
+      <option name="closed" value="true" />
+      <created>1765533850742</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1765533850743</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +360,8 @@
     <MESSAGE value="Automated Birthday wish via Email" />
     <MESSAGE value="Introduction to API - ISS POSITION" />
     <MESSAGE value="Quiz Application using API is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quiz Application using API is added" />
+    <MESSAGE value="Weather Checking and SMS vis twilio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Weather Checking and SMS vis twilio" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonCourse$learning.coverage" NAME="sunrise_api Coverage Results" MODIFIED="1765016475261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
