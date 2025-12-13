@@ -20,10 +20,6 @@ NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 # Send a separate message with each article's title and description to your phone number.
 #HINT 1: Consider using a List Comprehension.
 
-date_today = datetime.date.today()
-yesterday_date = str(date_today - datetime.timedelta(days=2))
-day_before_yesterday_date = str(date_today - datetime.timedelta(days=3))
-
 parameters_for_stock = {
     "function": "TIME_SERIES_DAILY",
     "symbol": STOCK,
