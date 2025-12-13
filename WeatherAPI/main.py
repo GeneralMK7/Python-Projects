@@ -5,7 +5,7 @@ from WeatherAPI import creds
 parameters = {
     "lat" : 4.284556,
     "lon" : 96.943119,
-    "appid" : creds.API_KEY,
+    "appid" : creds.WEATHER_API_KEY,
     "cnt" : 4
 }
 
