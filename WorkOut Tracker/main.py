@@ -6,7 +6,6 @@ APP_ENDPOINT = "https://app.100daysofpython.dev/v1/nutrition/natural/exercise"
 
 import requests,datetime
 user_answer = input("Tell me which exercises you did: ")
-
 headers = {
     "x-app-id": APP_ID,
     "x-app-key": APP_KEY,
