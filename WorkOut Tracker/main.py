@@ -1,4 +1,4 @@
-from WeatherAPI import creds
+from API import creds
 
 APP_ID = creds.APP_BREWERY_ID
 APP_KEY = creds.APP_BREWERY_KEY
