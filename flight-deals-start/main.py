@@ -12,18 +12,18 @@ print(token)
 sheet_data = google_sheet_manager.get_message()
 
 #----------------------------------------------PUT IATA CODE-----------------------------------------#
-# for flight in sheet_data["prices"]:
-#     if flight["iataCode"] == "":
-#         city_name = flight["city"]
-#         iata_code = flight_data_manager.get_iata_code(city_name)
-#         if iata_code is None:
-#             iata_code = "ERROR"
-#         json_payload = {"price": {
-#                 "city": flight["city"],
-#                 "iataCode": iata_code,
-#                 "lowestPrice": flight["lowestPrice"]
-#             }}
-#         google_sheet_manager.put_data(json_payload,flight["id"])
+for flight in sheet_data["prices"]:
+    if flight["iataCode"] == "":
+        city_name = flight["city"]
+        iata_code = flight_search_manager.get_iata_code(city_name)
+        if iata_code is None:
+            iata_code = "ERROR"
+        json_payload = {"price": {
+                "city": flight["city"],
+                "iataCode": iata_code,
+                "lowestPrice": flight["lowestPrice"]
+            }}
+        google_sheet_manager.put_data(json_payload,flight["id"])
 
 
 #------------------------------------------------FLIGHT DATA------------------------------------------#
