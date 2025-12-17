@@ -1,6 +1,6 @@
 import requests
 from twilio.rest import Client
-from WeatherAPI import creds
+from API import creds
 
 parameters = {
     "lat" : 4.284556,
