@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7a569b-4152-4a22-9d86-78820bbb24d6" name="Changes" comment="Workout Tracker in Google sheets using Sheety API">
-      <change afterPath="$PROJECT_DIR$/flight-deals-start/data_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flight-deals-start/flight_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flight-deals-start/flight_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flight-deals-start/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flight-deals-start/notification_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeatherAPI/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeatherAPI/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="cd7a569b-4152-4a22-9d86-78820bbb24d6" name="Changes" comment="some import change" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +118,7 @@
       <workItem from="1765690579088" duration="6011000" />
       <workItem from="1765734067932" duration="3520000" />
       <workItem from="1765798019984" duration="18981000" />
-      <workItem from="1765982854986" duration="8147000" />
+      <workItem from="1765982854986" duration="8522000" />
     </task>
     <task id="LOCAL-00001" summary="Day 25 US game project!">
       <option name="closed" value="true" />
@@ -449,15 +440,29 @@
       <option name="project" value="LOCAL" />
       <updated>1765819276684</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Flight Searching using Amendous API and flight data from google sheets via Sheety APi">
+      <option name="closed" value="true" />
+      <created>1765994471511</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1765994471511</updated>
+    </task>
+    <task id="LOCAL-00042" summary="some import change">
+      <option name="closed" value="true" />
+      <created>1765994492097</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1765994492097</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Password Manager UI updated" />
-    <MESSAGE value="work has 25 min" />
     <MESSAGE value="Converted to string" />
     <MESSAGE value="Pomodoro - The timer project" />
     <MESSAGE value="NATO Alphabet - gives you words for each letter of your name" />
@@ -481,11 +486,13 @@
     <MESSAGE value="Workout Tracker in Google sheets using Sheety API" />
     <MESSAGE value="added one file to ignore" />
     <MESSAGE value="some import work" />
-    <option name="LAST_COMMIT_MESSAGE" value="some import work" />
+    <MESSAGE value="Flight Searching using Amendous API and flight data from google sheets via Sheety APi" />
+    <MESSAGE value="some import change" />
+    <option name="LAST_COMMIT_MESSAGE" value="some import change" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonCourse$learning.coverage" NAME="sunrise_api Coverage Results" MODIFIED="1765016475261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
-    <SUITE FILE_PATH="coverage/PythonCourse$main.coverage" NAME="main Coverage Results" MODIFIED="1765993552805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flight-deals-start" />
+    <SUITE FILE_PATH="coverage/PythonCourse$main.coverage" NAME="main Coverage Results" MODIFIED="1765994498904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flight-deals-start" />
     <SUITE FILE_PATH="coverage/PythonCourse$data.coverage" NAME="data Coverage Results" MODIFIED="1765111764155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Quiz GUI" />
     <SUITE FILE_PATH="coverage/PythonCourse$creds.coverage" NAME="creds Coverage Results" MODIFIED="1765533567869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WeatherAPI" />
     <SUITE FILE_PATH="coverage/PythonCourse$ui.coverage" NAME="ui Coverage Results" MODIFIED="1765115934133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Quiz GUI" />
