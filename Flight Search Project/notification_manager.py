@@ -19,3 +19,18 @@ class NotificationManager:
             from_="+18125613420",
             to="+919666225131",
         )
+
+    def send_emails(self,customer_email):
+        email = creds.EMAIL
+        password = creds.PASSWORD
+
+        with smtplib.SMTP('smtp.gmail.com', 587) as connection:
+            connection.starttls()
+            connection.login(email, password)
+            for to_email in customer_email:
+                connection.sendmail(from_addr=email,
+                                    to_addrs=to_email,
+                                    msg="Subject: Information regarding cheap Flights!!\n\n"
+                                        f"Low Price Alert! Only {self.price} to fly from "
+                                        f"{self.origin} to {self.destination},with "
+                                        f"{self.stops}stop(s) departing on {self.from_date}")
