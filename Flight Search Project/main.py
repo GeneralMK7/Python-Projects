@@ -46,8 +46,9 @@ for flight in sheet_data["prices"]:
         notification_manager = NotificationManager(flight_data_manager.price,
                                                    flight_data_manager.origin_airport,
                                                    flight_data_manager.destination_airport,
-                                                   flight_data_manager.out_date)
-        notification_manager.send_notification()
+                                                   flight_data_manager.out_date,
+                                                   flight_data_manager.stops)
+        notification_manager.send_emails(customer_email=customer_emails)
     # Slowing down requests to avoid rate limit
     time.sleep(2)
 
