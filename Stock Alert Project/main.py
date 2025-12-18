@@ -1,7 +1,7 @@
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 import requests
-from WeatherAPI import creds
+from API import creds
 from twilio.rest import Client
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"

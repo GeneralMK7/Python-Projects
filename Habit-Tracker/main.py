@@ -1,5 +1,5 @@
 import requests,datetime
-from WeatherAPI import creds
+from API import creds
 PIXELA_ENDPOINT = "https://pixe.la/v1/users"
 USERNAME = "madhukirangolla24"
 GRAPH_ID = "graph1"
