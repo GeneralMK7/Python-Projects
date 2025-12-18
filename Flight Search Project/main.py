@@ -37,6 +37,10 @@ for flight in sheet_data["prices"]:
 
     print(f"{flight['city']}: £{flight_data_manager.price}")
     if flight_data_manager.price == "N/A":
+        flight_data = flight_search_manager.get_flight_data(origin_city_code,destination_city_code,tomorrow,is_direct="false")
+        flight_data_manager = find_cheapest_flight(flight_data)
+        print(f"{flight['city']}: £{flight_data_manager.price}")
+    if flight_data_manager.price == "N/A":
         continue
     if flight_data_manager.price <= price:
         notification_manager = NotificationManager(flight_data_manager.price,
