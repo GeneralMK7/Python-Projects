@@ -1,15 +1,19 @@
 import datetime,time
-
 from data_manager import DataManager
 from flight_search import FlightSearch
 from flight_data import *
 from notification_manager import NotificationManager
+
 google_sheet_manager = DataManager()
 flight_search_manager = FlightSearch()
-token = "SRITus4pQcWwZ1gTvlBYE2Gd3gpf"
+token = flight_search_manager.get_new_token()
 flight_search_manager._token = token
 print(token)
 sheet_data = google_sheet_manager.get_message()
+
+customer_data = google_sheet_manager.get_customer_emails()
+customer_emails = [data["emailAddress"] for data in customer_data["users"]]
+print(customer_emails)
 
 #----------------------------------------------PUT IATA CODE-----------------------------------------#
 for flight in sheet_data["prices"]:
@@ -24,7 +28,6 @@ for flight in sheet_data["prices"]:
                 "lowestPrice": flight["lowestPrice"]
             }}
         google_sheet_manager.put_data(json_payload,flight["id"])
-
 
 #------------------------------------------------FLIGHT DATA------------------------------------------#
 for flight in sheet_data["prices"]:

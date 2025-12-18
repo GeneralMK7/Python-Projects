@@ -1,17 +1,19 @@
 from API import creds
 from twilio.rest import Client
+import smtplib
 
 class NotificationManager:
     #This class is responsible for sending notifications with the deal flight details.
-    def __init__(self,price,origin,destination,from_date):
+    def __init__(self,price,origin,destination,from_date,stops):
         self.price = price
         self.origin = origin
         self.destination = destination
         self.from_date = from_date
+        self.stops = stops
 
     def send_notification(self):
         message = (f"Low Price Alert! Only {self.price} to fly from "
-                   f"{self.origin} to {self.destination},on {self.from_date}")
+                   f"{self.origin} to {self.destination},with {self.stops}stop(s) departing on {self.from_date}")
         client = Client(creds.account_sid, creds.auth_token)
 
         message = client.messages.create(

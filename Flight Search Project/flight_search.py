@@ -1,4 +1,3 @@
-import datetime
 from API import creds
 import requests
 
@@ -9,7 +8,7 @@ class FlightSearch:
         self._api_secret = creds.FLIGHT_API_SECRET
         self._token = None
 
-    def get_flight_data(self,origin_city_code,destination_city_code,from_date):
+    def get_flight_data(self,origin_city_code,destination_city_code,from_date,is_direct="true"):
         headers = {
             "Authorization": "Bearer " + self._token,
         }
@@ -18,7 +17,7 @@ class FlightSearch:
             "originLocationCode" : origin_city_code,
             "destinationLocationCode" : destination_city_code,
             "departureDate" : from_date.strftime("%Y-%m-%d"),
-            "nonStop" : "true",
+            "nonStop" : is_direct,
             "adults" : 1,
             "currencyCode" : "GBP",
             "max" : "10"
