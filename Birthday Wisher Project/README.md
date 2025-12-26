@@ -73,6 +73,7 @@ flowchart TD
 A CSV file storing the birthday data for each person who should receive a birthday email.
 
 ### Fields
+#----------------These are just example data-----------------------#
 
 | name  | email                               | year | month | day |
 |-------|-------------------------------------|------|-------|-----|
@@ -151,7 +152,6 @@ for i in range(len(date_of_all)):
 
 #### Birthday Email Sending Flow
 
-```mermaid
 flowchart TD
     A[Script Starts] --> B[Get today's date]
     B --> C[Read birthdays.csv]
