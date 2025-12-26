@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7a569b-4152-4a22-9d86-78820bbb24d6" name="Changes" comment="Amendous API to check flight prices and google sheet tracker via Sheety API">
+    <list default="true" id="cd7a569b-4152-4a22-9d86-78820bbb24d6" name="Changes" comment="Some import Change">
+      <change afterPath="$PROJECT_DIR$/Birthday Wisher Project/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flight Search Project/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flight Search Project/data_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flight Search Project/flight_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flight Search Project/flight_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flight Search Project/flight_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flight Search Project/flight_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flight Search Project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flight Search Project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flight Search Project/notification_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flight Search Project/notification_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Habit-Tracker/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Habit-Tracker/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stock Alert Project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stock Alert Project/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,43 +43,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.NATO_alphabet.executor": "Run",
-    "Python.Other_Tkinter_Widgets.executor": "Run",
-    "Python.creds.executor": "Run",
-    "Python.data.executor": "Run",
-    "Python.exceptions.executor": "Run",
-    "Python.final_project.executor": "Run",
-    "Python.learning.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.playground.executor": "Run",
-    "Python.squirrel_game.executor": "Run",
-    "Python.sunrise_api.executor": "Run",
-    "Python.time_module.executor": "Run",
-    "Python.ui.executor": "Run",
-    "Python.us_game_project.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/madhu/PycharmProjects/PythonCourse",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.idesettings.debugger.python",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.NATO_alphabet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Other_Tkinter_Widgets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.creds.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exceptions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.final_project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.learning.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.playground.executor&quot;: &quot;Run&quot;,
+    &quot;Python.squirrel_game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sunrise_api.executor&quot;: &quot;Run&quot;,
+    &quot;Python.time_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.us_game_project.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/madhu/PycharmProjects/PythonCourse&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.python&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\madhu\PycharmProjects\PythonCourse" />
@@ -128,15 +122,20 @@
       <workItem from="1765734067932" duration="3520000" />
       <workItem from="1765798019984" duration="18981000" />
       <workItem from="1765982854986" duration="9759000" />
-      <workItem from="1766031983906" duration="4604000" />
-    </task>
-    <task id="LOCAL-00001" summary="Day 25 US game project!">
-      <option name="closed" value="true" />
-      <created>1764251296260</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1764251296260</updated>
+      <workItem from="1766031983906" duration="5170000" />
+      <workItem from="1766135046325" duration="4000" />
+      <workItem from="1766210007479" duration="1149000" />
+      <workItem from="1766487179682" duration="633000" />
+      <workItem from="1766504486684" duration="22000" />
+      <workItem from="1766504614523" duration="3000" />
+      <workItem from="1766574188033" duration="8000" />
+      <workItem from="1766574242488" duration="4000" />
+      <workItem from="1766642282231" duration="4000" />
+      <workItem from="1766660246175" duration="870000" />
+      <workItem from="1766723334901" duration="16000" />
+      <workItem from="1766723999791" duration="14000" />
+      <workItem from="1766724263618" duration="825000" />
+      <workItem from="1766771194431" duration="432000" />
     </task>
     <task id="LOCAL-00002" summary="Day 26,27 added">
       <option name="closed" value="true" />
@@ -490,18 +489,53 @@
       <option name="project" value="LOCAL" />
       <updated>1765994852431</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Added non direct flights">
+      <option name="closed" value="true" />
+      <created>1766036732780</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1766036732780</updated>
+    </task>
+    <task id="LOCAL-00047" summary="added Number of stops">
+      <option name="closed" value="true" />
+      <created>1766036750248</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1766036750248</updated>
+    </task>
+    <task id="LOCAL-00048" summary="added email sending using smtp">
+      <option name="closed" value="true" />
+      <created>1766036777336</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1766036777336</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Final Flight Search Project using Amendous API and google sheet manager via Sheety API">
+      <option name="closed" value="true" />
+      <created>1766036850353</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1766036850353</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Some import Change">
+      <option name="closed" value="true" />
+      <created>1766036872716</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1766036872717</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Mile to Km converter with tkinter basic GUI" />
-    <MESSAGE value="Added exception handling to NATO project" />
-    <MESSAGE value="US-states Guessing Project" />
-    <MESSAGE value="Names Changed" />
-    <MESSAGE value="Basic Project" />
     <MESSAGE value="Flash Card Project Added" />
     <MESSAGE value="Automated Birthday wish via Email" />
     <MESSAGE value="Introduction to API - ISS POSITION" />
@@ -522,11 +556,16 @@
     <MESSAGE value="added some more conditions" />
     <MESSAGE value="Commented out" />
     <MESSAGE value="Amendous API to check flight prices and google sheet tracker via Sheety API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Amendous API to check flight prices and google sheet tracker via Sheety API" />
+    <MESSAGE value="Added non direct flights" />
+    <MESSAGE value="added Number of stops" />
+    <MESSAGE value="added email sending using smtp" />
+    <MESSAGE value="Final Flight Search Project using Amendous API and google sheet manager via Sheety API" />
+    <MESSAGE value="Some import Change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some import Change" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonCourse$learning.coverage" NAME="sunrise_api Coverage Results" MODIFIED="1765016475261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
-    <SUITE FILE_PATH="coverage/PythonCourse$main.coverage" NAME="main Coverage Results" MODIFIED="1766036568056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flight Search Project" />
+    <SUITE FILE_PATH="coverage/PythonCourse$main.coverage" NAME="main Coverage Results" MODIFIED="1766210716844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkOut Tracker" />
     <SUITE FILE_PATH="coverage/PythonCourse$data.coverage" NAME="data Coverage Results" MODIFIED="1765111764155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Quiz GUI" />
     <SUITE FILE_PATH="coverage/PythonCourse$creds.coverage" NAME="creds Coverage Results" MODIFIED="1765533567869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WeatherAPI" />
     <SUITE FILE_PATH="coverage/PythonCourse$ui.coverage" NAME="ui Coverage Results" MODIFIED="1765115934133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Quiz GUI" />
