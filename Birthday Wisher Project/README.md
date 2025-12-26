@@ -151,7 +151,7 @@ for i in range(len(date_of_all)):
 - Sends the email.
 
 #### Birthday Email Sending Flow
-
+```mermaid
 flowchart TD
     A[Script Starts] --> B[Get today's date]
     B --> C[Read birthdays.csv]
