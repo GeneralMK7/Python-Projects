@@ -185,10 +185,6 @@ For Gmail, you'll need to use an App Password:
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
-
-This project is open source and available under the MIT License.
-
 ## 🙏 Acknowledgments
 
 - [Amadeus for Developers](https://developers.amadeus.com/) - Flight API
